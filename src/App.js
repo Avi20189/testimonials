@@ -1,4 +1,6 @@
 import React from "react";
+import Testimonials from "./components/Testimonials";
+import Reviews from "./data";
 
 const App = () => {
   return(
@@ -6,7 +8,7 @@ const App = () => {
       <div>
         <h1>Our testimonials</h1>
         <div></div>
-        <Testimonial reviews={reviews}/>
+        <Testimonials reviews={reviews}/>
       </div>
     </div>
   );
