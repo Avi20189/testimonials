@@ -1,6 +1,7 @@
  import React from 'react'
+ import Card from './Card';
  
- const Testimonials = () => {
+ const Testimonials = (props) => {
     let reviews = props.reviews;
    return (
      <div>

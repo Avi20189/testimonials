@@ -6,10 +6,10 @@ const Card = (props) => {
     let review = props.review;
     return (
         <div>
-          <div>
+          {/* <div>
             <img src = {review.img}/>
 
-          </div>
+          </div> */}
           <div>
             <p>{review.name}</p>
           </div>
